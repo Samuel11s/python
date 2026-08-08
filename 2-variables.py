@@ -8,5 +8,5 @@
 # # print(type(x),type(y), type(z))
 # print(x, y, z)
 
-x, y, z = 5, 'sam', 'a
+x, y, z = 5, 'sam', 
 print(x, y, z)
