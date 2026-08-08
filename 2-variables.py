@@ -22,7 +22,7 @@
 #  GLOBAL VARIABLES
 
 x = 'awesome'
-print('Python is ' + x + ' !')
+print('Python is ' + x + ' !') # before the GLOBAL 
 def myfunc():
     global x
     x = 'fatastic'
