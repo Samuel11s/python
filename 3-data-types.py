@@ -1,7 +1,7 @@
 """
     DATA TYPES
 """
-#  Setting the Data Type
+print("Setting the Data Type\n")
 
 x = "Hello World"	# str
 print(type(x))
@@ -33,3 +33,5 @@ x = memoryview(bytes(5))	# memoryview
 print(type(x))
 x = None
 print(type(x))
+
+print("\nSetting the Data Type")
