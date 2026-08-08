@@ -23,6 +23,6 @@ x = 3+5j # complex
 y = 5j
 z = -5j
 
-print(type(x))
+print(x)
 print(type(y))
 print(type(z))
