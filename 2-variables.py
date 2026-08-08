@@ -9,6 +9,12 @@
 # print(x, y, z)
 
 # x, y, z = 'Python', 'is', 'awesome !'
-packed_words = [ 'Python', 'is', 'awesome !']
-x, y, z = packed_words
-print(x, y, z)
+
+"""
+    packed_words = [ 'Python', 'is', 'awesome !']
+    x, y, z = packed_words
+    print(x, y, z)
+"""
+
+#  GLOBAL VARIABLES
+
