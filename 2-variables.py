@@ -4,6 +4,5 @@
     z = float(5)
     print(x,y,z)
 """
-x = 5.0
-y = 'Sam'
-print(type(x),type(y))
+x, y, z = 5, 'sam', 5.0
+print(type(x),type(y),
