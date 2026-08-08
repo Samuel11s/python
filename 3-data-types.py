@@ -1,7 +1,8 @@
 """
     DATA TYPES
 """
-#  
+#  Setting the Data Type
+
 x = "Hello World"	# str
 print(type(x))
 x = 20	# int
