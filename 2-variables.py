@@ -21,6 +21,7 @@
 x = 'awesome'
 
 def myfunc():
+    global x
     x = 'fatastic'
     print('Python is ' + x + ' !')
 
