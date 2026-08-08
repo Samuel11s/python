@@ -21,4 +21,4 @@
 x = 'awesome'
 
 def myfunc():
-    print('Python is ')
+    print('Python is ' + x + ' !')
