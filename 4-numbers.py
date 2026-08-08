@@ -5,3 +5,4 @@
 x = 1 # int
 y = 1.0 # float
 z = 1j
+print(type())
