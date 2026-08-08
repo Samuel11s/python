@@ -10,20 +10,20 @@
 
 # x, y, z = 'Python', 'is', 'awesome !'
 
-"""
+# """
     packed_words = [ 'Python', 'is', 'awesome !']
     x, y, z = packed_words
     print(x, y, z)
-"""
+# """
 
 #  GLOBAL VARIABLES
 
-x = 'awesome'
-print('Python is ' + x + ' !')
-def myfunc():
-    global x
-    x = 'fatastic'
-    print('Python is ' + x + ' !')
+# x = 'awesome'
+# print('Python is ' + x + ' !')
+# def myfunc():
+#     global x
+#     x = 'fatastic'
+#     print('Python is ' + x + ' !')
 
-myfunc()
-print('Python is ' + x + ' !')
+# myfunc()
+# print('Python is ' + x + ' !')
