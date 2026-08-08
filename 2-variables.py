@@ -22,11 +22,11 @@
 #  GLOBAL VARIABLES
 
 x = 'awesome'
-print('Python is ' + x + ' !') # x before the GLOBAL keyword and outside of the def
+print('Python is ' + x + ' !') # x before the GLOBAL keyword
 def myfunc():
     global x
     x = 'fatastic'
-    print('Python is ' + x + ' !')
+    print('Python is ' + x + ' !') # x after the GLOBAL keyword and into the def
 
 myfunc()
-print('Python is ' + x + ' !')
+print('Python is ' + x + ' !') # x outside the def and after the GLOBAL keyword
