@@ -1,17 +1,30 @@
-x = "Hello World"	# str	
-x = 20	# int	
+x = "Hello World"	# str
+print(type(x))
+x = 20	# int
+print(type(x))
 x = 20.5	# float
-x = 1j	# complex	
-x = ["apple", "banana", "cherry"]	# list	
-x = ("apple", "banana", "cherry")	# tuple	
-x = range(6)	# range	
-x = {"name" : "John", "age" : 36}	# dict	
-x = {"apple", "banana", "cherry"}	# set	
-x = frozenset({"apple", "banana", "cherry"})	# frozenset	
-x = True	# bool	
-x = b"Hello"	# bytes	
-x = bytearray(5)	# bytearray	
-x = memoryview(bytes(5))	# memoryview	
+print(type(x))
+x = 1j	# complex
+print(type(x))
+x = ["apple", "banana", "cherry"]	# list
+print(type(x))
+x = ("apple", "banana", "cherry")	# tuple
+print(type(x))
+x = range(6)	# range
+print(type(x))
+x = {"name" : "John", "age" : 36}	# dict
+print(type(x))
+x = {"apple", "banana", "cherry"}	# set
+print(type(x))
+x = frozenset({"apple", "banana", "cherry"})	# frozenset
+print(type(x))
+x = True	# bool
+print(type(x))
+x = b"Hello"	# bytes
+print(type(x))
+x = bytearray(5)	# bytearray
+print(type(x))
+x = memoryview(bytes(5))	# memoryview
+print(type(x))
 x = None
-
 print(type(x))
