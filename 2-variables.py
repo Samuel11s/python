@@ -4,6 +4,6 @@
     z = float(5)
     print(x,y,z)
 """
-x = 5
+x = 5.0
 y = 'Sam'
 print(type(x),type(y))
