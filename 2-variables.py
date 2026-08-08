@@ -13,6 +13,7 @@
 # """
 packed_words = [ 'Python', 'is', 'awesome !']
 x, y, z = packed_words
+print(type(x),type(y), type(z))
 # print(x, y, z)
 # """
 
