@@ -18,3 +18,6 @@
 
 #  GLOBAL VARIABLES
 
+x = 'awesome'
+
+def myfunc()
