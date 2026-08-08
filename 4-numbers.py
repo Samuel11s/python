@@ -49,4 +49,7 @@
 # print(type(b))
 # print(type(c))
 
-# 
+# RANDOM NUMBER
+import random
+
+print(random.randrange(1, 10))
