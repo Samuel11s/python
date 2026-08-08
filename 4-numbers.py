@@ -52,4 +52,4 @@
 # RANDOM NUMBER
 import random
 
-print(random.randrange(1, 10))
+print(random.randrange(1000, 100000000))
