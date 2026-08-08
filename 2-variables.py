@@ -20,4 +20,5 @@
 
 x = 'awesome'
 
-def myfunc()
+def myfunc():
+    print('Python is ')
