@@ -8,5 +8,6 @@
 # # print(type(x),type(y), type(z))
 # print(x, y, z)
 
-x, y, z = 'Python', 'is', 'awesome !'
+# x, y, z = 'Python', 'is', 'awesome !'
+
 print(x, y, z)
