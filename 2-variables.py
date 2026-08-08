@@ -6,4 +6,4 @@
 """
 x = 5
 y = 'Sam'
-print(type(x),
+print(type(x),type(y))
