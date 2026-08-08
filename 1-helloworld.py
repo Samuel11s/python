@@ -1,1 +1,3 @@
-print('Hello World') # My first command executed 
+print('Hello World') # My first command
+
+Notes
