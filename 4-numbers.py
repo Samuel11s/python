@@ -5,5 +5,4 @@
 x = 1 # int
 y = 1.0 # float
 z = 1j
-print(x, y, z)
-print(type(x), type(y), type(z))
+print(x, type(x), y, type(y), z, type(z))
