@@ -34,3 +34,4 @@ for x in a:
 print('\n---\n')
 
 # String Length
+print(len(a))
