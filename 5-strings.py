@@ -17,6 +17,7 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)
+print('\n---\n')
 
 # Note : 
 # - You can assign a multiline string to a variable by using three quotes
@@ -25,7 +26,9 @@ print(a)
 # Strings are Arrays []
 a = "Hello, World!"
 print(a[1])
+print('\n---\n')
 
 # Looping Through a String
 for x in a:
     print(x)
+print('\n---\n')
