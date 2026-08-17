@@ -37,6 +37,6 @@ print('\n---\n')
 print(len(a))
 print('\n---\n')
 
-# Check String
+# Check String :: keyworld 'in' or IF statement
 txt = "The best things in life are free!"
 print("free" in txt)
