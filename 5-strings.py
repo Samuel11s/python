@@ -1,3 +1,4 @@
 """
-    PYTHON STRINGS - int, float and complex
+    PYTHON STRINGS - "" or ''
 """
+
