@@ -38,3 +38,4 @@ print(len(a))
 print('\n---\n')
 
 # Check String
+txt = ""
