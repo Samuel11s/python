@@ -36,3 +36,5 @@ print('\n---\n')
 # String Length
 print(len(a))
 print('\n---\n')
+
+# Check String
