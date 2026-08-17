@@ -20,6 +20,6 @@ print(a)
 # - You can assign a multiline string to a variable by using three quotes
 # - in the result, the line breaks are inserted at the same position as in the code.
 
-# Strings are Arrays
+# Strings are Arrays []
 a = "Hello, World!"
 print(a[1])
