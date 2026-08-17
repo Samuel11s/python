@@ -32,3 +32,5 @@ print('\n---\n')
 for x in a:
     print(x)
 print('\n---\n')
+
+# String Length
