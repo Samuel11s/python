@@ -4,10 +4,12 @@
 
 print("hello!")
 print('hello!')
+print('\n---\n')
 
 # Assign String to a Variable
 a = "Hello"
 print(a)
+print('\n---\n')
 
 # Multiline Strings
 a = """Lorem ipsum dolor sit amet,
