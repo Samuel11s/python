@@ -41,4 +41,5 @@ print('\n---\n')
 txt = "The best things in life are free!"
 print("free" in txt)
 
-if ""
+if "free" in txt:
+    print
