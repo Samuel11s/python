@@ -7,6 +7,7 @@
 print(10 > 9) # True
 print(10 == 9) # False
 print(10 < 9) # False
+print("---")
 
 ## Print a message based on whether the condition is True or False:
 a = 200
@@ -17,16 +18,21 @@ if b > a:
 else:
     print("b is not greater than a")
 
+
+print("---")
+
 # Evaluate Values and Variables - bool() function returns True or False
 ## Evaluate a string and a number:
 print(bool("Hello"))
 print(bool(15))
+print("---")
 
 ## Evaluate two variables:
 x = "Hello"
 y = 15
 print(bool(x))
 print(bool(y))
+print("---")
 
 """
 Most Values are True
@@ -46,3 +52,27 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+print("---")
+
+# Functions can Return a Boolean
+def myFunction() :
+    return True
+
+print(myFunction()) # True
+print("---")
+
+## Code based on the Boolean answer of a function
+def myFunction():
+    return True
+
+if myFunction():
+    print("YES!")
+else:
+    print("NO!")
+    
+print("---")
+
+# Python also has many built-in functions that return a boolean value, like the isinstance() function, which can be used to determine if an object is of a certain data type:
+## Check if an object is an integer or not:
+x = 200
+print(isinstance(x, int))
