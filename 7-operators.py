@@ -39,3 +39,19 @@ print(x % y)   # Modulus
 print(x ** y)  # Exponentiation
 print(x // y)  # Floor division  -- returns an intenger
 print("---")
+
+# Assigment Operators - "= += -= *= /= %= //= **= &= |= ^= >>= <<= :="
+# Assigment Operators are used to assign values to variables
+
+# &=	x &= 3	x = x & 3
+x = 5
+x &= 3
+print(x)
+
+# The Walrus Operator - ":="
+# Python 3.8 introduced the := operator, known as the "walrus operator". 
+# It assigns values to variables as part of a larger expression
+numbers = [1, 2, 3, 4, 5]
+
+if (count := len(numbers)) > 3: # same as count = len(numbers) then if count > 3
+    print(f"List has {count} elements")
