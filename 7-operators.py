@@ -26,3 +26,16 @@ Python divides the operators in the following groups:
 - Bitwise operators
 
 """
+
+# Arthmetic Operators - "+ - * / % ** //"
+x = 15
+y = 4
+
+print(x + y)   # Addition
+print(x - y)   # Substraction
+print(x * y)   # Multiplication
+print(x / y)   # Division   -- return a float
+print(x % y)   # Modulus 
+print(x ** y)  # Exponentiation
+print(x // y)  # Floor division  -- returns an intenger
+print("---")
