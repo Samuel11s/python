@@ -55,3 +55,13 @@ numbers = [1, 2, 3, 4, 5]
 
 if (count := len(numbers)) > 3: # same as count = len(numbers) then if count > 3
     print(f"List has {count} elements")
+
+print("---")
+
+# Ternary Operator
+# The  Tenary Operator allows you to assign one value if a condition is true, and another if it is false
+num = 6
+
+x = "WEEKEND!" if num > 5 else "Workday" # can be used instead of elif in longer if statements
+print(x)
+print("---")
