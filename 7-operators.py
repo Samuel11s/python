@@ -65,3 +65,11 @@ num = 6
 x = "WEEKEND!" if num > 5 else "Workday" # can be used instead of elif in longer if statements
 print(x)
 print("---")
+
+# Comparaison operators
+#    ==	  Equal	                      x == y	
+#.   !=	  Not equal	                  x != y	
+#    >	  Greater than	              x > y	
+#    <	  Less than	                  x < y	
+#    >=	  Greater than or equal to	  x >= y	
+#    <=	  Less than or equal to	      x <= y
