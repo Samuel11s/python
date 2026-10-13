@@ -81,3 +81,18 @@ print("---")
 # not	    Reverse the result, returns False if the result is true	        not(x < 5 and x < 10)
 
 # Identity operators
+# Operator	Description	                                                    Example
+# is 	    Returns True if both variables are the same object	            x is y	
+# is not	Returns True if both variables are not the same object	        x is not y
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+
+print(x is y)       # False
+print(x is z)       # True
+print(x is not y)   # True
+# Difference between "is" and "=="
+print(x == y)       # True (they have the same content)
+print(x is y)       # False (they are not the same object)
+print(z is x)       # True (z is the same object as x)
+print("---")
