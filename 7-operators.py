@@ -113,3 +113,10 @@ print(6 & 3)
 # The binary representation of 6 is 0110
 # The binary representation of 3 is 0011
 # Then the & operator compares the bits and returns 0010, which is 2 in decimal.
+
+# Operator Precedence - "() ** +x -x ~x * / % // + - << >> & ^ | == != < > <= >= is is not in not and or"
+# Operator precedence determines the order in which operations are performed in an expression.
+print("---")
+print(100 + 5 * 3) # 115 (5*3 is evaluated first)
+# Addition + and subtraction - has the same precedence, and therefore we evaluate the expression from left to right:
+print(5 + 4 - 7 + 3)
